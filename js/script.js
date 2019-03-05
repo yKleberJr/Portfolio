@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
     });
 
     $("#mContato").click(function(){
-        $('html,body').animate({scrollTop:2315}, 1000);
+        $('html,body').animate({scrollTop:2330}, 1000);
     });
 
 
