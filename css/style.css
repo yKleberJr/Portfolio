@@ -1,0 +1,249 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+header {
+    width: 100%;
+    height: 430px;
+    padding-top: 140px;
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Flive.ft.com%2Fvar%2Fftlive%2Fstorage%2Fimages%2Fevents%2F2018%2Fcoding-for-beginners-kick-start-your-career%2F926239-7-eng-GB%2FCoding-for-beginners-kick-start-your-career.png?source=ft-live&format=jpg&width=1200&height=630&dpi=2&compression=fast");
+    background-size: cover;
+    
+    
+}
+
+#presentationBox {
+
+   color: white;
+   width: 80%;
+   height: 100px;
+   font-size: 2rem;
+   text-align: center;
+   margin-left: 10%;    
+}
+
+#presentationBox span {
+    font-size: 1rem;
+    
+}
+
+#knowMe {
+    font-size:1.1rem;
+    margin: 50px 0 0 34%;
+    width: 28%;
+    height: 28px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 0 0 6%;
+}
+
+#knowMe a {
+    color: white;
+}
+
+/* MENU PROPERTIES*/
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: #e74c3c;
+    float: left;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    
+}
+
+#listMenu{
+    margin-left: 3%;
+}
+
+#listMenu li{
+    float: left;
+    padding-right: 5%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#listMenu  li a {
+    color: white;
+}
+
+#listMenu  li a:hover {
+    color: antiquewhite;
+}
+/*INFORMACOES */
+
+#aboutMe {
+    padding-top: 60px;
+    width: 100%;
+    height: 510px;
+    background-color: #e74c3c;
+    text-align: center;
+    color:white;
+}
+
+#aboutMe h2 {
+    text-align: center;
+}
+
+#aboutMe ul li {
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
+
+#foto {
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    background-color: pink;
+}
+
+/*PÁGINA DO PORTFÓLIO*/
+
+#portfolio {
+    
+    width: 100%;
+    height: 560px;
+    background-color: #83e0aa;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#boxImg {
+    width: 100%;
+    height: auto;
+    background-color: red;
+   
+}
+
+#imgPortfolio{
+    margin-right: 5.5%;
+}
+
+#imgPortfolio li {
+    max-width: 45%;
+    float: left;
+
+    margin-left: 2%;
+}
+
+
+
+#habilidades {
+    
+    width: 100%;
+    height: 600px;
+    background-color: #2C3A47;
+    float: left;
+
+}
+
+#habilidades h2 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+
+}
+
+/* BARRAS DAS SKILLS*/
+
+.skillProgress {
+    width: 72%;
+    height: 15px;
+    background-color: rgb(194, 192, 192);
+    float: right;
+    margin-right: 7%;
+    margin-top: 5%;
+    
+}
+
+#ps {
+    width: 30%;
+    height: 15px;
+    background-color: cyan;
+}
+
+#ai {
+    width: 50%;
+    height: 15px;
+    background-color: orange;
+}
+
+#pr {
+    width: 35%;
+    height: 15px;
+    background-color: purple;;
+}
+
+#ae {
+    width: 20%;
+    height: 15px;
+    background-color: palevioletred;
+}
+
+#html {
+    width: 60%;
+    height: 15px;
+    background-color: orangered;
+}
+
+#css {
+    width: 60%;
+    height: 15px;
+    background-color: rgb(43, 112, 173);
+}
+
+#js {
+    width: 40%;
+    height: 15px;
+    background-color: yellow;
+}
+
+
+#jquery {
+    width: 30%;
+    height: 15px;
+    background-color: rgb(102, 102, 204);
+}
+
+/*ICONS*/
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+
+/*---------------------------------
+
+#d04 {
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+
+
+}
