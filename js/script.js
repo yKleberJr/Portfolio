@@ -20,6 +20,10 @@ jQuery(document).ready(function($) {
         $('html,body').animate({scrollTop:1730}, 1000);
     });
 
+    $("#mContato").click(function(){
+        $('html,body').animate({scrollTop:2315}, 1000);
+    });
+
 
  });
 

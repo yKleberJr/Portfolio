@@ -88,7 +88,7 @@ header {
 #listMenu  li a:hover {
     color: antiquewhite;
 }
-/*INFORMACOES */
+/*INFORMACOES DO SOBRE*/
 
 #aboutMe {
     padding-top: 60px;
@@ -130,8 +130,8 @@ header {
 
 #boxImg {
     width: 100%;
-    height: auto;
-    background-color: red;
+    height: 400px;
+    
    
 }
 
@@ -139,14 +139,17 @@ header {
     margin-right: 5.5%;
 }
 
-#imgPortfolio li {
+#imgPortfolio li  {
     max-width: 45%;
     float: left;
-
     margin-left: 2%;
 }
 
+#imgPortfolio li img {
+    max-width: 100%;
+}
 
+/*SKILLS*/
 
 #habilidades {
     
@@ -234,16 +237,42 @@ header {
     margin-top: 3%;
     margin-left: 5%;
 }
+/*-------------------------------*/
 
-
-
-/*---------------------------------
-
-#d04 {
+#contato {
+    padding-top: 50px;
     width: 100%;
-    height: 300px;
-    background-color: yellow;
+    height: 450px;
+    background-color: #ffc048;
     float: left;
+    color: white;
+    text-align:center;
+    
+}
 
+#contato h2 {
+    text-align: center;
+}
 
+#contato ul {
+    margin-right: 10%;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+    margin-top: 3%;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #2C3A47;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin-top: 30px;
 }
